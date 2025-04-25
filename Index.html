@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PersonalPortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1791036ae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a class="logo">A<span>run</span></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="ft fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="ft fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Python Fullstack Developer</p>
+                <h1> Hi, I'm <span>Arun</span> Singh <br>from India </h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------------About-------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/AboutImg.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle"> About Me</h1>
+                    <p> I am a fourth year undergraduate student of the Department of Computer Science and Engineering,
+                        RIMT University,Punjab, India. I was born in Rajouri, J&K.<br>
+                        I was fortunate enough to know from a young age that I wanted to be an engineer.
+                        What I didn't know was what type of engineer I wanted to be. When push came to shove,
+                        I chose Software Engineering.
+                    </p>
+                    <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Fullstack Developer</li>
+                            <li><span>Web Development</span><br>Web App Developer</li>
+                            <li><span>DataBase Management</span><br>Create Database and Manage</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-Current</span><br>B.Tech-CSE in RIMT University,Punjab</li>
+                            <li><span>2020-21</span><br>HSC/Intermediate in NNPHS School,J&K</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Current</span><br>No Job Experience</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------portfolio---------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle"> My Work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="image/Work-1.png">
+                        <div class="layer">
+                            <h3>Flower Suggestion Website</h3>
+                            <p>This website suggest flower for different occasions</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/Work-2.png">
+                        <div class="layer">
+                            <h3>GYM Website</h3>
+                            <p>This website Layout of GYM</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="work">
+                        <img src="image/Work-3.png">
+                        <div class="layer">
+                            <h3>Mondern Cleaning Servicess</h3>
+                            <p>This website Layout Cleaning Service</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                    <img src="image/Work-4.png">
+                    <div class="layer">
+                    <h3> RADHA KRISHNA PHARMACY</h3>
+                    <p>This website is design for pharmacy store, which is located near my town.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+         
+        </div>
+        <a href="#" class="btn">See more</a>
+
+</div>
+        <!--------------------- MY SKILLS---------------------->
+        <div id="skills" class="skills">
+            <div class="container">
+                    <h1 class="subtitle"> My Skills</h1>
+
+                    <div class="skills-row">
+                        <div class="skills-column">
+                            <h3 class="title">Coding Skills</h3>
+
+                            <div class="skills-box">
+                                <div class="skills-contents">
+                                    <div class="progress">
+                                        <h3> HTML <span>90%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <h3> CSS <span>80%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <h3> JavaScript <span>70%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <h3> Python <span>95%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <!--------------->
+                        <div class="skills-column">
+                            <h3 class="title">Professional skills</h3>
+                            <div class="skills-box">
+                                <div class="skills-contents">
+                                    <div class="progress">
+                                        <h3> Web Design <span>60%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <h3>Web Development <span>79%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <h3> Graphic Design <span>60%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+
+                                    <div class="progress">
+                                        <h3> SEO Marking <span>55%</span></h3>
+                                        <div class="bar"><span></span></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!-----------contact---------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle"> Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i> chyarun727@gmail.com </p>
+                        <p><i class="fas fa-phone-square-alt"></i>8082065540</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/share/15gum2KqXt/"><i class="fab fa-facebook"></i> </a>
+                            <a href=""><i class="fab fa-twitter-square"></i> </a>
+                            <a
+                                href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=ity8iju"><i
+                                    class="fab fa-instagram"></i> </a>
+                            <a href=""><i class="fab fa-linkedin"></i> </a>
+                        </div>
+                        <a href="image/cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-Right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" placeholder="Your Message" rows="6"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+
+                        </form>
+                        <span id="msg"></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Arun.</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemeu.style.right = "0";
+
+            }
+            function openmenu() {
+                sidemeu.style.right = "-200";
+
+            }
+        </script>
+        <script>
+
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw7JRyBuIvSy9WOpLKkfVmqzma7_KnJ3RCLjmOd3TIrK97yYlpuopVAY4u2EHdTiSItiA/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message sent sucessfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
