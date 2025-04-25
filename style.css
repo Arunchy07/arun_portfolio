@@ -445,11 +445,10 @@ nav .ft {
     display: none;
 }
 
-----------------------------CSS for Small Screen--------------- 
 @media only screen and (max-width:600px) {
 
     #header {
-        background-image: url(image/AboutImg.png);
+        background-image: url();
     }
 
     .header-text {
@@ -457,12 +456,12 @@ nav .ft {
         font-size: 16px;
     }
 
-    .header-text {
+    .header-text h{
         font: size 30px;
 
     }
 
-    nav .ft {
+    nav .fas {
         display: block;
         font-size: 25px;
     }
@@ -486,7 +485,7 @@ nav .ft {
 
     }
 
-    nav ul ft {
+    nav ul .fas {
         position: absolute;
         top: 25px;
         left: 25px;
