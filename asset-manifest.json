@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/arun_portfolio/static/css/main.4c3fcac4.css",
-    "main.js": "/arun_portfolio/static/js/main.c4c013ae.js",
+    "main.js": "/arun_portfolio/static/js/main.51e587c5.js",
     "static/js/787.ed079b27.chunk.js": "/arun_portfolio/static/js/787.ed079b27.chunk.js",
     "static/media/proyecto-6.png": "/arun_portfolio/static/media/proyecto-6.2c97d3a5f976154d7eb1.png",
     "static/media/proyecto-3.png": "/arun_portfolio/static/media/proyecto-3.3ef0fca496e5dfd85011.png",
@@ -63,11 +63,11 @@
     "static/media/proyecto-app-2.jpg": "/arun_portfolio/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/arun_portfolio/index.html",
     "main.4c3fcac4.css.map": "/arun_portfolio/static/css/main.4c3fcac4.css.map",
-    "main.c4c013ae.js.map": "/arun_portfolio/static/js/main.c4c013ae.js.map",
+    "main.51e587c5.js.map": "/arun_portfolio/static/js/main.51e587c5.js.map",
     "787.ed079b27.chunk.js.map": "/arun_portfolio/static/js/787.ed079b27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c3fcac4.css",
-    "static/js/main.c4c013ae.js"
+    "static/js/main.51e587c5.js"
   ]
 }
