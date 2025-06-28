@@ -1,4 +1,4 @@
-# Portfolio Nahuel61920 1.9.0 🖥️
+# Aarun Singh Portfolio 🖥️
 
 ![preview img](/preview.png)
 # Arun_Portfolio
