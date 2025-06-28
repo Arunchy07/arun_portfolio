@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/arun_portfolio/static/css/main.4c3fcac4.css",
-    "main.js": "/arun_portfolio/static/js/main.32ce900b.js",
+    "main.js": "/arun_portfolio/static/js/main.8d69ecb4.js",
     "static/js/787.ed079b27.chunk.js": "/arun_portfolio/static/js/787.ed079b27.chunk.js",
     "static/media/proyecto-6.png": "/arun_portfolio/static/media/proyecto-6.2c97d3a5f976154d7eb1.png",
     "static/media/proyecto-3.png": "/arun_portfolio/static/media/proyecto-3.3ef0fca496e5dfd85011.png",
@@ -12,11 +12,11 @@
     "static/media/Arunlogo.jpg": "/arun_portfolio/static/media/Arunlogo.17a4e871157db0976721.jpg",
     "index.html": "/arun_portfolio/index.html",
     "main.4c3fcac4.css.map": "/arun_portfolio/static/css/main.4c3fcac4.css.map",
-    "main.32ce900b.js.map": "/arun_portfolio/static/js/main.32ce900b.js.map",
+    "main.8d69ecb4.js.map": "/arun_portfolio/static/js/main.8d69ecb4.js.map",
     "787.ed079b27.chunk.js.map": "/arun_portfolio/static/js/787.ed079b27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c3fcac4.css",
-    "static/js/main.32ce900b.js"
+    "static/js/main.8d69ecb4.js"
   ]
 }
